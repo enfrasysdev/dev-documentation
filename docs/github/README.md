@@ -6,7 +6,7 @@
 
 This page contains all details for the GitHub account for Development Team.
 
-### Account Details
+## GitHub Account Details
 
 ::: tip NOTE
 Account GitHub Link: [https://github.com/enfrasysdev](https://github.com/enfrasysdev)
@@ -14,3 +14,7 @@ Account GitHub Link: [https://github.com/enfrasysdev](https://github.com/enfrasy
 
     Email: developer@enfrasys.com
     Password: 3nfr@5y5
+
+## Integrating Git/GitHub to Visual Studio Code
+
+https://help.github.com/en/articles/set-up-git
