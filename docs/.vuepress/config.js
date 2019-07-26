@@ -3,15 +3,17 @@ module.exports = {
   description: "Documentation for Enfrasys Consulting's Development Team",
   //base: "/dev-documentation/",
   markdown: {
+    toc: { includeLevel: [1, 2, 3] },
     lineNumbers: true
   },
   themeConfig: {
     displayAllHeaders: true,
+    lastUpdated: "Last Updated",
     repo: "enfrasysdev/dev-documentation",
     docsDir: "docs",
     editLinks: true,
     editLinkText: "Edit this page on Github",
-    logo: "/images/visual-studio-code-insiders-icon.png",
+    logo: "/images/leaf.svg",
     sidebarDepth: 1,
     sidebar: [
       {
@@ -41,7 +43,6 @@ module.exports = {
         children: ["/vuepress/"]
       }
     ],
-    nav: [{ text: "Home", link: "/" }],
-    lastUpdated: true
+    nav: [{ text: "Home", link: "/" }]
   }
 };
