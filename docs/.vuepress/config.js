@@ -29,7 +29,7 @@ module.exports = {
       },
       {
         title: "Cloud Solution Provider",
-        children: ["/csp/", "/csp/cosmosdb", "/csp/cspapi"]
+        children: ["/csp/"]
       },
       {
         title: "GitHub",
@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         title: "VuePress",
-        children: ["/vuepress/", "/vuepress/exampleloadfromapi"]
+        children: ["/vuepress/"]
       }
     ],
     nav: [{ text: "Home", link: "/" }],
