@@ -19,13 +19,14 @@ module.exports = {
         collapsable: false,
         children: ["/"]
       },
+
       {
         title: "Power Platform",
         children: ["/power-platform/"]
       },
       {
         title: "i-Transform",
-        children: ["/"]
+        children: ["/i-transform/"]
       },
       {
         title: "Cloud Solution Provider",
