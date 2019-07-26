@@ -1,16 +1,17 @@
 module.exports = {
   title: "Dev Team Docs",
-  description: "Just playing around",
+  description: "Documentation for Enfrasys Consulting's Development Team",
+  //base: "/dev-documentation/",
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
     displayAllHeaders: true,
-    repo: "enfrasysdev/development-team-documentation",
+    repo: "enfrasysdev/dev-documentation",
+    docsDir: "docs",
     editLinks: true,
     editLinkText: "Edit this page on Github",
     logo: "/images/visual-studio-code-insiders-icon.png",
-    sidebar: "auto",
     sidebarDepth: 1,
     sidebar: [
       {
@@ -39,10 +40,7 @@ module.exports = {
         children: ["/vuepress/", "/vuepress/exampleloadfromapi"]
       }
     ],
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Github", link: "https://www.github.com" }
-    ],
+    nav: [{ text: "Home", link: "/" }],
     lastUpdated: true
   }
 };

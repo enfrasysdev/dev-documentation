@@ -1,10 +1,8 @@
-<p align="center">
-  <a href="/">
-    <img width="320" src="/images/undraw_version_control_9bpv.svg" alt="logo">
-  </a>
-</p>
+# GitHub
 
-# GitHub - Main
+<p align="center">
+    <img width="320" src="/images/undraw_version_control_9bpv.svg" alt="logo">
+</p>
 
 This page contains all details for the GitHub account for Development Team.
 

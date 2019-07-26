@@ -1,12 +1,10 @@
-<p align="center">
-  <a href="/">
-    <img width="320" src="/images/undraw_operating_system_4lr6.svg" alt="logo">
-  </a>
-</p>
-
 # Home
 
-Welcome to Azure Tips and Tricks, this site is a special collection of over 180+ tips, videos, conference talks, and 2 eBooks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that the community has encountered while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
+<p align="center">
+  <img width="320" src="/images/undraw_operating_system_4lr6.svg" alt="logo">
+</p>
+
+Welcome to Development Team Documentation, this site is a special collection of over 180+ tips, videos, conference talks, and 2 eBooks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that the community has encountered while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
 
 ::: tip What's New?
 :calendar: Check out the **Recently Added** item on the left sidebar :point_left:for the latest tips and tricks!

@@ -1,10 +1,8 @@
-<p align="center">
-  <a href="/">
-    <img width="320" src="/images/undraw_experience_design.svg" alt="logo">
-  </a>
-</p>
+# VuePress
 
-# VuePress - Main
+<p align="center">
+  <img width="320" src="/images/undraw_experience_design.svg" alt="logo">
+</p>
 
 This whole development team documentation is developed using [VuePress](https://vuepress.vuejs.org/).
 
