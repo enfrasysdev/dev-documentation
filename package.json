@@ -1,0 +1,22 @@
+{
+  "name": "development-team-documentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "contributors": [
+    "Azri Kahar",
+    "Loong Jun Bin"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "vuepress": "^1.0.2"
+  }
+}
