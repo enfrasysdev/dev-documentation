@@ -21,7 +21,10 @@ module.exports = {
         collapsable: false,
         children: ["/"]
       },
-
+      {
+        title: "Azure Services",
+        children: ["/azure-services/"]
+      },
       {
         title: "Power Platform",
         children: ["/power-platform/"]
@@ -44,5 +47,6 @@ module.exports = {
       }
     ],
     nav: [{ text: "Home", link: "/" }]
-  }
+  },
+  plugins: ["@vuepress/back-to-top"]
 };

@@ -1,29 +1,14 @@
 # VuePress
 
 <p align="center">
-  <img width="320" src="/images/undraw_experience_design.svg" alt="logo">
+  <img width="300" src="/images/undraw_files1.svg" alt="logo">
 </p>
 
 This whole development team documentation is developed using [VuePress](https://vuepress.vuejs.org/).
 
-### Configuration
+<h2>Table of Content</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Color</th>
-      <th style="text-align: center;">Color Code</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr v-for="i in items">
-      <td>{{i.name}}</td>
-      <td style="text-align: center;">{{i.email}}</td>
-    </tr>
-  </tbody>
-</table>
-
-    Theme Main Color: #42b983
+[[toc]]
 
 ## Load data from external API
 
@@ -123,6 +108,14 @@ This is a sample script to be inserted at the end of your .md file.
     </tr>
   </tbody>
 </table>
+
+## Current Configuration Reference
+
+- Theme Main Color: `#42b983`
+
+Link for Tagging: [Link](https://code.roygreenfeld.com/cookbook/adding-tags-to-vuepress.html)
+
+<!-- Insert Script below this line -->
 
 <script>
 const axios = require('axios')
