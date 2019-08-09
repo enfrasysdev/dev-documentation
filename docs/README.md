@@ -26,3 +26,5 @@ NOTE:
 
 - Be sure to merge the latest from "upstream" before making a pull request!
 - Each page has a "Edit this page on GitHub" link. Click it to easily navigate to the blog post file. They are also located in `/src/blog` with a name such as `tip120.md`.
+
+This is another note for testing.
