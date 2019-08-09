@@ -10,6 +10,10 @@ Welcome to Development Team Documentation, this site contains a collection of to
 Official GitHub repo link: [https://github.com/enfrasysdev/dev-documentation](https://github.com/enfrasysdev/dev-documentation)
 :::
 
+### Contributors
+
+placeholder
+
 ### Git Workflow
 
 ---
