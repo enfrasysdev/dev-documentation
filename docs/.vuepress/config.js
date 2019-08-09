@@ -1,3 +1,5 @@
+const getChildren = require("./childscript");
+
 module.exports = {
   title: "Dev Team Docs",
   description: "Documentation for Enfrasys Consulting's Development Team",
@@ -7,51 +9,50 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    displayAllHeaders: true,
     lastUpdated: "Last Updated",
     repo: "enfrasysdev/dev-documentation",
     docsDir: "docs",
     editLinks: true,
     editLinkText: "Edit this page on Github",
     logo: "/images/leaf.svg",
-    sidebarDepth: 0,
+    sidebarDepth: 1,
     sidebar: [
       {
         title: "Home",
         collapsable: false,
-        children: ["/"]
+        children: getChildren("./docs/")
       },
       {
         title: "Azure Services",
-        children: ["/azure-services/"]
+        children: getChildren("./docs/azure-services/")
       },
       {
         title: "Power Platform",
-        children: ["/power-platform/"]
+        children: getChildren("./docs/power-platform/")
       },
       {
         title: "API Manager",
-        children: ["/api-manager/"]
+        children: getChildren("./docs/api-manager/")
       },
       {
         title: "i-Transform",
-        children: ["/i-transform/"]
+        children: getChildren("./docs/i-transform/")
       },
       {
         title: "Cloud Solution Provider",
-        children: ["/csp/"]
+        children: getChildren("./docs/csp/")
       },
       {
         title: "Useful Scripts",
-        children: ["/useful-scripts/"]
+        children: getChildren("./docs/useful-scripts/")
       },
       {
         title: "GitHub",
-        children: ["/github/"]
+        children: getChildren("./docs/github/")
       },
       {
         title: "VuePress",
-        children: ["/vuepress/"]
+        children: getChildren("./docs/vuepress/")
       }
     ],
     nav: [{ text: "Home", link: "/" }]
