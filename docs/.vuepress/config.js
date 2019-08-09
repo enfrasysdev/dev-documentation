@@ -30,6 +30,10 @@ module.exports = {
         children: ["/power-platform/"]
       },
       {
+        title: "API Manager",
+        children: ["/api-manager/"]
+      },
+      {
         title: "i-Transform",
         children: ["/i-transform/"]
       },
