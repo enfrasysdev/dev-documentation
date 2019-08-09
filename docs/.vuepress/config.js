@@ -14,7 +14,7 @@ module.exports = {
     editLinks: true,
     editLinkText: "Edit this page on Github",
     logo: "/images/leaf.svg",
-    sidebarDepth: 1,
+    sidebarDepth: 0,
     sidebar: [
       {
         title: "Home",
@@ -42,6 +42,10 @@ module.exports = {
         children: ["/csp/"]
       },
       {
+        title: "Useful Scripts",
+        children: ["/useful-scripts/"]
+      },
+      {
         title: "GitHub",
         children: ["/github/"]
       },
@@ -52,5 +56,5 @@ module.exports = {
     ],
     nav: [{ text: "Home", link: "/" }]
   },
-  plugins: ["@vuepress/back-to-top"]
+  plugins: ["@vuepress/back-to-top", "@vuepress/nprogress"]
 };
