@@ -35,6 +35,10 @@ module.exports = {
         children: getChildren("./docs/api-manager/")
       },
       {
+        title: "i-DO",
+        children: getChildren("./docs/i-do/")
+      },
+      {
         title: "i-Transform",
         children: getChildren("./docs/i-transform/")
       },
