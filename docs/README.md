@@ -10,23 +10,44 @@ Welcome to Development Team Documentation, this site contains a collection of to
 Official GitHub repo link: [https://github.com/enfrasysdev/dev-documentation](https://github.com/enfrasysdev/dev-documentation)
 :::
 
-### Contributors
+## Contributors
 
-placeholder
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th style="text-align: center;">Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr v-for="i in items">
+      <td>
+        <img :src="i.avatar_url" height="48" width="48" />
+      </td>
+      <td>{{i.login}}</td>
+    </tr>
+  </tbody>
+</table>
 
-### Git Workflow
+<!-- Scripts below this line -->
 
----
-
-In general, we follow the "fork-and-pull" Git workflow.
-
-1.  **Fork** the repo on GitHub
-2.  **Clone** the project to your own machine
-3.  **Commit** changes to your own branch
-4.  **Push** your work back up to your fork
-5.  Submit a **Pull request** so that we can review your changes
-
-NOTE:
-
-- Be sure to merge the latest from "upstream" before making a pull request!
-- Each page has a "Edit this page on GitHub" link. Click it to easily navigate to the blog post file. They are also located in `/src/blog` with a name such as `tip120.md`.
+<script>
+const axios = require('axios')
+export default {
+  data () {
+      return {
+          items: []
+      }
+  },
+  beforeMount(){
+        axios.get('https://api.github.com/repos/enfrasysdev/dev-documentation/contributors?access_token=d24cc72aa03ff5227557300f04acb62df6b022e3')
+        .then(res => {
+            console.log(res);
+            this.$data.items = res.data;
+        })
+        .catch(err => {
+            console.log(err);
+        });
+    }
+}
+</script>
