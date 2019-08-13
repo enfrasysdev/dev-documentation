@@ -33,4 +33,4 @@ Account GitHub Link: [https://github.com/enfrasysdev](https://github.com/enfrasy
 
 ## Integrating Git/GitHub to Visual Studio Code
 
-https://help.github.com/en/articles/set-up-git
+Refer to this link for updated steps: [https://help.github.com/en/articles/set-up-git](https://help.github.com/en/articles/set-up-git)
