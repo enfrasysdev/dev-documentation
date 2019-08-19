@@ -47,6 +47,10 @@ module.exports = {
         children: getChildren("./docs/useful-scripts/")
       },
       {
+        title: "Useful Tools",
+        children: getChildren("./docs/useful-tools/")
+      },
+      {
         title: "GitHub",
         children: getChildren("./docs/github/")
       },
