@@ -16,7 +16,7 @@ Example output: `https://enfrasysconsulting-admin.sharepoint.com/_layouts/15/onl
 You need to be a **Sharepoint Administrator** of the tenant to have permission to view this page.
 :::
 
-<img :src="$withBase('/images/get-site-owner-01.gif')">
+<img :src="$withBase('/images/get-site-owner.gif')">
 
 3.
 
