@@ -8,7 +8,10 @@ Power BI Desktop is a free application you can install on your local computer th
 
 ## Get Started
 
-<table>
+<table class="fixed" >
+    <col width="15px" />
+    <col width="15px" />
+    <col width="15px" />
 <tr>
     <td valign="top" align="center"><img :src="$withBase('/images/power-bi-consumer.svg')" height="100">
 <a href="https://docs.microsoft.com/en-us/power-bi/consumer/power-bi-consumer-landing" target="_block"><strong>Power BI for consumers</strong> </a><br/>Do you use reports and dashboards, created by others, to make business decisions? Get to know the Power BI service for consumers.</td>
