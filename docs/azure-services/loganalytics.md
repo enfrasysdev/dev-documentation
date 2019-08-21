@@ -1,9 +1,7 @@
 # Log Analytics
 
-In computer log management and intelligence, log analysis is an art and science seeking to make sense out of computer-generated records. The process of creating such records is called data logging.
-</br>
-
----
+<div style="text-align:center">
+<img :src="$withBase('/images/azure-log-analytics.svg')" height="80"></div>
 
 Azure Log Analytics is an Azure resource and isa container where data is collected, aggregated, analyzed and presented in Azure Monitor. You can have multiple workspaces per Azure subscription, and you can have access to more than one workspace, with the ability to easily query across them.
 
