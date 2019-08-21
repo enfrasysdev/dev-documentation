@@ -9,13 +9,43 @@ Azure Log Analytics is an Azure resource and isa container where data is collect
 
 ## Getting Started
 
-::: warning IMPORTANT
+::: tip Prerequisite
 
+Prepare your own [Log Analytics Workspace environment](https://docs.microsoft.com/en-gb/azure/azure-monitor/learn/quick-collect-azurevm)
 :::
 
-[Tutorial](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/get-started-portal)
+### [Get started with Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/get-started-portal)
 
-### VM Availability
+In this tutorial you will learn how to use Log Analytics in the Azure portal to write Azure Monitor log queries. It will teach you how to:
+
+<ul>
+<li>Use Log Analytics to write a simple query</li>
+<li>Understand the schema of your data</li>
+<li>Filter, sort, and group results</li>
+<li>Apply a time range</li>
+<li>Create charts</li>
+<li>Save and load queries</li>
+<li>Export and share queries</li>
+</ul>
+
+### [Get started with log queries](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/get-started-queries)
+
+In this tutorial you will learn to write log queries in Azure Monitor. It will teach you how to:
+
+<ul>
+<li>Understand query structure</li>
+<li>Sort query results</li>
+<li>Filter query resultes</li>
+<li>Filter query results</li>
+<li>Specify a time range</li>
+<li>Select which fields to include in the results</li>
+<li>Define and use custom fields</li>
+<li>Aggregate and group results</li>
+</ul>
+
+## Useful Queries
+
+### VM Availability (in Power BI Advanced Query Editor)
 
 ```js
 let AnalyticsQuery =
