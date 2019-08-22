@@ -1,4 +1,4 @@
-# Retrieved site creators for all sites in Sharepoint
+# SharePoint - Retrieved site creators for all sites
 
 ## Steps
 

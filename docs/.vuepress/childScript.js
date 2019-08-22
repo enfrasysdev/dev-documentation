@@ -15,9 +15,17 @@ module.exports = function(path) {
         .split(".")
         .slice(0, -1)
         .join(".");
-      if (filename.includes("README")) filename = "";
-      if (parent.includes("docs")) list.push(`/${filename}`);
-      else list.push(`/${parent}/${filename}`);
+      if (parent.includes("docs")) {
+        if (filename.includes("README")) {
+          filename = "";
+          list.unshift(`/${filename}`);
+        } else list.push(`/${filename}`);
+      } else {
+        if (filename.includes("README")) {
+          filename = "";
+          list.unshift(`/${parent}/${filename}`);
+        } else list.push(`/${parent}/${filename}`);
+      }
     }
   }
   console.log(`${path}: `, list);
