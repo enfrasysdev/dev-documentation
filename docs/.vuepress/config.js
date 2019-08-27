@@ -1,4 +1,4 @@
-const getChildren = require("./childscript");
+const getChildren = require("./childScript");
 
 module.exports = {
   title: "Dev Team Docs",
