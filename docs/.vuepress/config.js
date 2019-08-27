@@ -51,8 +51,8 @@ module.exports = {
         children: getChildren("./docs/useful-tools/")
       },
       {
-        title: "GitHub",
-        children: getChildren("./docs/github/")
+        title: "Source Control Tools",
+        children: getChildren("./docs/source-control-tools/")
       },
       {
         title: "VuePress",

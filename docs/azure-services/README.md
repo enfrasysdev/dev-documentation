@@ -1,7 +1,7 @@
 # Azure Services
 
 <p align="center">
-  <img width="300" src="/images/undraw_collecting.svg" alt="logo">
+  <img width="200" src="/images/undraw_collecting.svg" alt="logo">
 </p>
 
 This page contains all details for everything related services provided by Azure.
