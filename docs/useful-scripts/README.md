@@ -20,7 +20,7 @@ You need to be a **Sharepoint Administrator** of the tenant to have permission t
 
 3.
 
-```
+```js
 (async function() {
   const SP_URL = window.location.origin;
 
